@@ -8,8 +8,7 @@ body {
 .background-wrap {
     background-image: url(./IMG/Title_back.jpg);
     background-size: 100%;
-    width: 272px;
-    height: 196px;
+    width: 100%;
     display: flex;
     justify-content: center;
    align-items: center;
@@ -18,6 +17,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    writing-mode: vertical-lr;
 }
 
 .content span {
