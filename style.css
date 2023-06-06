@@ -1,8 +1,62 @@
 /* Custom styles */
-
-body {
-    background-color: #f2f2f2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    padding: 5rem;
+    background-color: beige;
     font-family: Arial, sans-serif;
+  }
+
+  .gallery_container {
+    width: 1fr;
+    max-width: 500px; /*갤러리 container 최대 너비*/
+    margin: auto;
+    padding: 10px 0;
+  }
+  
+  .title {
+    margin-bottom: 2rem;
+  }
+
+  .photo-gallery {
+    display: grid; /*부모 컨테이너에 너는 그리드야 라고 지정 */
+    grid-template-columns: repeat(3,1fr); /*그리드 열의 개수와 사이즈 지정*/
+    grid-template-rows: repeat(4,150px); /*그리드 행의 개수와 사이즈 지정*/
+    grid-template-areas: 
+    "a a a"
+    "b b c"
+    "b b d"
+    "e f g"; /*파워풀하게 사용*/
+    grid-gap: 0.2rem; /*그리드 셀 사이에 여백 추가*/
+    object-fit: cover;
+  }
+
+  .img1{
+    grid-area: a;
+  }
+
+  .img2{
+    grid-area: b;
+  }
+  .img3{
+    grid-area: c;
+  }
+
+  .photo{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+
+
+.container {
+    display: grid;
+    grid
 }
 
 .background-wrap {
@@ -11,7 +65,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
 
 .content {
