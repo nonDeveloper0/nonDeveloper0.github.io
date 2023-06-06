@@ -5,6 +5,13 @@
     box-sizing: border-box;
   }
   
+  h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Playfair', serif;
+    color:#CE9C9D;
+  }
+
   body{
     padding: 5rem;
     background-color: #fbf3f0;
@@ -18,18 +25,16 @@
     margin: auto;
     padding: 10px 0;
   }
+
   td{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .title {
-    margin-bottom: 2rem;
-  }
 
   .table_container{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   td{
