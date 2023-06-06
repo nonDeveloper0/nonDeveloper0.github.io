@@ -7,7 +7,8 @@
     padding: 5rem;
     background-color: beige ;
   }
-  .container {
+  
+  .gallery_container {
     width: 1fr;
     max-width: 500px; /*갤러리 container 최대 너비*/
     margin: auto;
