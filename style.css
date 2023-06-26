@@ -5,8 +5,10 @@
     box-sizing: border-box;
   }
 
-  .layout{
-    display: grid;
+  .flex_container{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 800px;
   }
 
   h2{

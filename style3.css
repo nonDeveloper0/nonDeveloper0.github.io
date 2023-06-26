@@ -1,0 +1,32 @@
+.flex_container{
+    background-color: beige; 
+    /* 컨테이너를 플렉스로 선언, default값은 row */
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; 
+    height: 100vh;
+
+    /* 플렉스 랩핑(wrap)? default는 nowrap. flex-wrap:wrap으로 설정하면
+    화면을 꽉 채웠을떄 자동 줄바꿈 해줌 */
+    flex-wrap: nowrap;
+    /* 플렉스 wrap과 direction을 동시에 지정해주려면 flex-flow 사용 */
+    /* flex-flow: column nowrap; */
+
+    /* 아이템을 어떻게 배치할지?
+    space-around 사용하면 박스를 둘러싸는 여백 추가됨*/
+    justify-content: flex-start;
+    /* 주축이 아닌 서브축을 기준으로 정렬하고 싶을땐 align-items */
+    align-items: center;
+    
+
+}
+
+.flex{
+    width: 50px;
+    height: 100px;
+}
+
+
+.flex1{
+    background-color: red;   
+}
